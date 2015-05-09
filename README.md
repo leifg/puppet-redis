@@ -1,6 +1,8 @@
 redis puppet module
 ===================
 
+*I am a fork. I give thanks to thomasvandoren, whose code I forked. Ideally, I'd like development to continue in the upstream repository, but I'm unsure of the status of  development, and note that some pull requests haven't been answered for around 10 months (including mine, to add Redis 3 Cluster support, and rework the configs for better cross-version compatibility). Thus, for the time being, I have merged my code into master, and am accepting pull requests. I intend to contact upstream again, and offer assistance. [tiredpixel]*
+
 [![Build Status](https://secure.travis-ci.org/thomasvandoren/puppet-redis.png)](http://travis-ci.org/thomasvandoren/puppet-redis)
 
 Install and configure redis.
