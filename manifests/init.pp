@@ -141,8 +141,8 @@
 #
 class redis (
   $version = $redis::params::version,
-  $redis_src_dir = $redis::params::redis_src_dir,
-  $redis_bin_dir = $redis::params::redis_bin_dir,
+  $redis_src_dir = "${redis::params::redis_src_dir}-${version}",
+  $redis_bin_dir = "${redis::params::redis_bin_dir}-${version}",
   $redis_user = $redis::params::redis_user,
   $redis_group = $redis::params::redis_group,
   $redis_port = $redis::params::redis_port,
